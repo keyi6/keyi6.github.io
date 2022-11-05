@@ -105,3 +105,6 @@ deploy:
   type: git
   repo: git@github.com:keyi6/keyi6.github.io.git
   branch: gh-pages
+  name: Keyi Li
+  email: 23731267+keyi6@users.noreply.github.com
+  message: "ci: auto deployment from push to the main branch"
