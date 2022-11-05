@@ -20,26 +20,26 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"blog.keyi-li.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.13.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="想在mac下安装oracle？so easy！虽然oracle在os X下并没有release，但是有了docker我们可以轻松实现。 安装docker参考这个 在docker里安装Oracle 先下载oracle的image1docker pull wnameless&#x2F;oracle-xe-11g 运行并开放窗口1docker run -d -p 49160:22 -p 49161:1521 wn">
+    <meta name="description" content="想在 mac OS 下安装 oracle？so easy！虽然 oracle 在 os X 下并没有 release，但是有了 docker 我们可以轻松实现。 安装docker参考这个 在docker里安装Oracle 先下载oracle的image1docker pull wnameless&#x2F;oracle-xe-11g 运行并开放窗口1docker run -d -p 49160:22 -p">
 <meta property="og:type" content="article">
 <meta property="og:title" content="install oracle on Mac os X | mac下oracle的最佳实践">
-<meta property="og:url" content="https://blog.keyi-li.com/mac-oracle/">
+<meta property="og:url" content="https://blog.keyi-li.com/install-oracle-on-macos/">
 <meta property="og:site_name" content="Keyi&#39;s Blog">
-<meta property="og:description" content="想在mac下安装oracle？so easy！虽然oracle在os X下并没有release，但是有了docker我们可以轻松实现。 安装docker参考这个 在docker里安装Oracle 先下载oracle的image1docker pull wnameless&#x2F;oracle-xe-11g 运行并开放窗口1docker run -d -p 49160:22 -p 49161:1521 wn">
+<meta property="og:description" content="想在 mac OS 下安装 oracle？so easy！虽然 oracle 在 os X 下并没有 release，但是有了 docker 我们可以轻松实现。 安装docker参考这个 在docker里安装Oracle 先下载oracle的image1docker pull wnameless&#x2F;oracle-xe-11g 运行并开放窗口1docker run -d -p 49160:22 -p">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2018-04-11T10:52:23.000Z">
-<meta property="article:modified_time" content="2019-03-01T02:52:51.000Z">
+<meta property="article:modified_time" content="2022-11-05T05:05:31.238Z">
 <meta property="article:author" content="Keyi Li">
 <meta property="article:tag" content="docker">
 <meta property="article:tag" content="oracle">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://blog.keyi-li.com/mac-oracle/">
+<link rel="canonical" href="https://blog.keyi-li.com/install-oracle-on-macos/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://blog.keyi-li.com/mac-oracle/","path":"mac-oracle/","title":"install oracle on Mac os X | mac下oracle的最佳实践"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://blog.keyi-li.com/install-oracle-on-macos/","path":"install-oracle-on-macos/","title":"install oracle on Mac os X | mac下oracle的最佳实践"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>install oracle on Mac os X | mac下oracle的最佳实践 | Keyi's Blog</title>
@@ -128,10 +128,6 @@
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
-      <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">categories</span>
-      </div>
       <div class="site-state-item site-state-tags">
         <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">tags</span>
@@ -177,7 +173,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://blog.keyi-li.com/mac-oracle/">
+    <link itemprop="mainEntityOfPage" href="https://blog.keyi-li.com/install-oracle-on-macos/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -213,16 +209,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2019-03-01 10:52:51" itemprop="dateModified" datetime="2019-03-01T10:52:51+08:00">2019-03-01</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">安装教程</span></a>
-        </span>
+      <time title="Modified: 2022-11-05 13:05:31" itemprop="dateModified" datetime="2022-11-05T13:05:31+08:00">2022-11-05</time>
     </span>
 
   
@@ -235,7 +222,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>想在mac下安装oracle？so easy！虽然oracle在os X下并没有release，但是有了docker我们可以轻松实现。</p>
+        <p>想在 mac OS 下安装 oracle？so easy！虽然 oracle 在 os X 下并没有 release，但是有了 docker 我们可以轻松实现。</p>
 <h2 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h2><p>参考<a target="_blank" rel="noopener" href="https://yeasy.gitbooks.io/docker_practice/content/install/mac.html">这个</a></p>
 <h2 id="在docker里安装Oracle"><a href="#在docker里安装Oracle" class="headerlink" title="在docker里安装Oracle"></a>在docker里安装Oracle</h2><ol>
 <li>先下载oracle的image<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull wnameless/oracle-xe-11g</span><br></pre></td></tr></table></figure></li>
@@ -247,7 +234,8 @@
 <p>但是，如果想使用GUI怎么办呢？</p>
 <h2 id="用SQL-developer连接到你的oracle"><a href="#用SQL-developer连接到你的oracle" class="headerlink" title="用SQL developer连接到你的oracle"></a>用SQL developer连接到你的oracle</h2><p>去<a target="_blank" rel="noopener" href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html">下载SQL developer</a>，然后用ssh连接到你的oracle。<br>默认信息为</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hostname: localhost</span><br><span class="line">port: 49161</span><br><span class="line">sid: xe</span><br><span class="line">username: system</span><br><span class="line">password: oracle</span><br></pre></td></tr></table></figure>
-<p>不过我还没有弄清楚这是在哪里看的。<br>注意连接的时候还有写Host和Port，用下面这条命令就能查询到你的oracle在的Host和Port。</p>
+
+<p>注意连接的时候还有写Host和Port，用下面这条命令就能查询到你的oracle在的Host和Port。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps</span><br></pre></td></tr></table></figure>
 
 
