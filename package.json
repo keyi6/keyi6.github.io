@@ -27,6 +27,6 @@
     "hexo-theme-next": "^8.13.2"
   },
   "devDependencies": {
-    "husky": "^8.0.1"
+    "husky": "^8.0.2"
   }
 }
